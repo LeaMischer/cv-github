@@ -1,4 +1,8 @@
 
+.navbar-minimal {
+  text-align: center;
+}
+
 .dashboard {
   display: grid;
   grid-template-columns: 300px 1fr 1fr 1fr;
@@ -35,7 +39,7 @@
   font-size: 25px;
 }
 .dashboard h3 {
-  color: #37B686;
+  color: #8AB9E3;
   font-size: 25px;
   margin-bottom: 15px;
 }
