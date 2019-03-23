@@ -10,13 +10,18 @@
   height: calc(100vh - 110px);
   margin-top: 20px;
 }
-.dashboard .main {
+ .dashboard .main {
   grid-row: 1 / span 2;
   grid-column: 1 / span 1;
+  padding: 30px;
 }
 .dashboard .description {
   grid-row: 1 / span 1;
   grid-column: 2 / span 3;
+}
+.dashboard .description2 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 4;
 }
 .dashboard-card {
   background: white;
@@ -27,6 +32,16 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.dashboard-disney {
+  padding-bottom: 5px;
+  text-align: center;
+}
+.dashboard-disney-img {
+  text-align: left;
+}
+.dashboard-edf-img {
+  text-align: left;
 }
 @media (max-width: 992px) {
   .dashboard {
@@ -47,7 +62,7 @@
   color: rgba(0,0,0,0.5);
   font-size: 16px;
 }
-.dashboard img {
+.dashboard .main img {
   border-radius: 50%;
 }
 .dashboard .btn {
