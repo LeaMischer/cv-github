@@ -27,11 +27,63 @@
   padding: 10px;
   margin: 10px;
 }
-.experiences img {
+.experiences-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.experiences h3 {
+  text-align: center;
+}
+.experiences-disney {
+  flex: 50% 0;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.experiences-disney p {
   text-align: left;
 }
-.loisirs {
+.experiences-edf {
+  flex: 0 50%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.experiences-edf p {
+  text-align: left;
+}
+.skills {
   grid-row: 4 / span 1;
+  grid-column: 1 / span 4;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin: 10px;
+}
+.card-white {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 4;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  }
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.loisirs {
+  grid-row: 5 / span 1;
   grid-column: 1 / span 4;
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -47,19 +99,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-.dashboard-disney img {
-  text-align: left;
-}
-.dashboard-edf {
-  grid-row: 3 / span 1;
-  grid-column: 1 / span 4;
-  padding-bottom: 5px;
-  text-align: left;
-}
-.dashboard-edf-img {
-  text-align: left;
-  padding: 30px;
 }
 @media (max-width: 992px) {
   .dashboard {
@@ -97,6 +136,8 @@
 .dashboard .btn:hover {
   background: #AAD3F2;
   opacity: 0.7;
+  font-weight: bolder;
+  transition: all 0.3s ease;
 }
 .main p {
   margin-bottom: 30px;
