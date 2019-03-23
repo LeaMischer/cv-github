@@ -19,9 +19,24 @@
   grid-row: 1 / span 1;
   grid-column: 2 / span 3;
 }
-.dashboard .description2 {
+.experiences {
   grid-row: 3 / span 1;
   grid-column: 1 / span 4;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin: 10px;
+}
+.experiences img {
+  text-align: left;
+}
+.loisirs {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 4;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin: 10px;
 }
 .dashboard-card {
   background: white;
@@ -33,15 +48,18 @@
   align-items: center;
   justify-content: space-around;
 }
-.dashboard-disney {
-  padding-bottom: 5px;
-  text-align: center;
+.dashboard-disney img {
+  text-align: left;
 }
-.dashboard-disney-img {
+.dashboard-edf {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 4;
+  padding-bottom: 5px;
   text-align: left;
 }
 .dashboard-edf-img {
   text-align: left;
+  padding: 30px;
 }
 @media (max-width: 992px) {
   .dashboard {
