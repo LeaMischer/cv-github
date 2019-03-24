@@ -27,6 +27,20 @@
   padding: 10px;
   margin: 10px;
 }
+.experiences-title {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 2px;
+}
+.experiences-title:hover {
+  background: #D7D7D7;
+  opacity: 0.7;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+  }
+  .experiences-title:hover h3 {
+    color: white;
+  }
 .experiences-flex {
   display: flex;
   justify-content: space-between;
@@ -61,11 +75,33 @@
   grid-column: 1 / span 4;
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  padding: 50px;
+  padding: 10px;
   margin: 10px;
-  display: flex;
-  justify-content: space-around;
 }
+.skills-flex {
+display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.skills-title {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 4;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 2px;
+  text-align: center;
+}
+.skills-title:hover {
+  background: #D7D7D7;
+  opacity: 0.7;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+  }
+  .skills-title:hover h3 {
+    color: white;
+  }
 .card-white {
   grid-row: 4 / span 1;
   grid-column: 1 / span 4;
@@ -73,16 +109,10 @@
   border-radius: 4px;
   padding: 10px;
   margin: 10px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
   }
 .card-white img {
   margin-bottom: 20px;
 }
-
 .loisirs {
   grid-row: 5 / span 1;
   grid-column: 1 / span 4;
