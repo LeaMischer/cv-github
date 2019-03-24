@@ -30,6 +30,9 @@ font-family: 'Libre Franklin', sans-serif;
   padding: 10px;
   margin: 10px;
 }
+.experiences h3 {
+  text-align: center;
+}
 .experiences-title {
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -47,32 +50,12 @@ font-family: 'Libre Franklin', sans-serif;
   }
 .experiences-flex {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.experiences h3 {
-  text-align: center;
-}
-.experiences-disney {
-  flex: 50% 0;
-  padding-right: 100px;
-  padding-left: 90px;
-  padding-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-.experiences-disney p {
-  text-align: left;
-}
-.experiences-edf {
-  flex: 0 50%;
-  padding-left: 100px;
-  padding-right: 90px;
-  padding-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-.experiences-edf p {
-  text-align: left;
+.experiences-flex img {
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 .skills {
   grid-row: 4 / span 1;
@@ -88,6 +71,7 @@ font-family: 'Libre Franklin', sans-serif;
   align-items: center;
   padding-top: 50px;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
 .skills-title {
   grid-row: 4 / span 1;
@@ -211,7 +195,7 @@ font-family: 'Libre Franklin', sans-serif;
 
 
 #map {
-  flex: 0 0 450px;
+  flex: 0 0 400px;
   height: 100vh;
   position: sticky !important;
   top: 0 !important;
@@ -220,6 +204,7 @@ font-family: 'Libre Franklin', sans-serif;
 .main-container {
   display: flex;
   font-family: 'Hind Siliguri', sans-serif;
+  flex-wrap: wrap;
 }
 .results-container {
   flex-grow: 1;
@@ -234,7 +219,7 @@ font-family: 'Libre Franklin', sans-serif;
   padding: 20px;
   margin: 20px 0px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   font-size: 25px;
   color: white;
@@ -242,6 +227,16 @@ font-family: 'Libre Franklin', sans-serif;
   text-shadow: 0 0 30px rgba(0,0,0,0.7);
   flex: 0 0 30%;
 }
+.card-white2 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 4;
+  width: 610px;
+  background-color: white;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  }
 @media(max-width: 992px) {
   .card {
     flex: 0 0 45%;
