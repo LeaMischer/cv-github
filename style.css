@@ -33,10 +33,10 @@
   padding: 2px;
 }
 .experiences-title:hover {
-  background: #D7D7D7;
+  background: #9D9D9D;
   opacity: 0.7;
   font-weight: bolder;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   }
   .experiences-title:hover h3 {
     color: white;
@@ -94,10 +94,10 @@ display: flex;
   text-align: center;
 }
 .skills-title:hover {
-  background: #D7D7D7;
+  background: #9D9D9D;
   opacity: 0.7;
   font-weight: bolder;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   }
   .skills-title:hover h3 {
     color: white;
@@ -105,6 +105,7 @@ display: flex;
 .card-white {
   grid-row: 4 / span 1;
   grid-column: 1 / span 4;
+  width: 200px;
   background-color: white;
   border-radius: 4px;
   padding: 10px;
@@ -122,6 +123,23 @@ display: flex;
   margin: 10px;
 text-align: center;
 }
+.loisirs-title {
+  grid-row: 5 / span 1;
+  grid-column: 1 / span 4;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 2px;
+  text-align: center;
+}
+.loisirs-title:hover {
+  background: #9D9D9D;
+  opacity: 0.7;
+  font-weight: bolder;
+  transition: all 0.6s ease;
+  }
+  .loisirs-title:hover h3 {
+    color: white;
+  }
 .dashboard-card {
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -181,6 +199,7 @@ text-align: center;
   height: 100vh;
   position: sticky !important;
   top: 0 !important;
+  margin: 20px;
 }
 .main-container {
   display: flex;
