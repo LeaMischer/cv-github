@@ -19,6 +19,9 @@
   grid-row: 1 / span 1;
   grid-column: 2 / span 3;
 }
+.dashboard .description h3 {
+font-family: 'Libre Franklin', sans-serif;
+}
 .experiences {
   grid-row: 3 / span 1;
   grid-column: 1 / span 4;
@@ -31,6 +34,7 @@
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 2px;
+  font-family: 'Libre Franklin', sans-serif;
 }
 .experiences-title:hover {
   background: #9D9D9D;
@@ -79,7 +83,7 @@
   margin: 10px;
 }
 .skills-flex {
-display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 50px;
@@ -92,6 +96,7 @@ display: flex;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 2px;
   text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 .skills-title:hover {
   background: #9D9D9D;
@@ -105,7 +110,7 @@ display: flex;
 .card-white {
   grid-row: 4 / span 1;
   grid-column: 1 / span 4;
-  width: 200px;
+  width: 250px;
   background-color: white;
   border-radius: 4px;
   padding: 10px;
@@ -121,7 +126,7 @@ display: flex;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 10px;
   margin: 10px;
-text-align: center;
+  text-align: center;
 }
 .loisirs-title {
   grid-row: 5 / span 1;
@@ -130,6 +135,7 @@ text-align: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 2px;
   text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 .loisirs-title:hover {
   background: #9D9D9D;
@@ -159,15 +165,23 @@ text-align: center;
 /* Fonts and colors */
 .dashboard h2 {
   font-size: 25px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.dashboard h3 {
+font-family: 'Libre Franklin', sans-serif;
 }
 .dashboard h3 {
   color: #8AB9E3;
   font-size: 25px;
   margin-bottom: 15px;
 }
+.dashboard h4 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
 .dashboard p {
   color: rgba(0,0,0,0.5);
   font-size: 16px;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .dashboard .main img {
   border-radius: 50%;
@@ -182,12 +196,14 @@ text-align: center;
   font-weight: bold;
   text-decoration: none;
   padding: 15px 20px;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .dashboard .btn:hover {
   background: #AAD3F2;
   opacity: 0.7;
   font-weight: bolder;
   transition: all 0.3s ease;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .main p {
   margin-bottom: 30px;
@@ -203,12 +219,14 @@ text-align: center;
 }
 .main-container {
   display: flex;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 .results-container {
   flex-grow: 1;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  text-shadow: 0 0 50px rgba(0,0,0,0.9);
 }
 .card {
   background-size: cover;
@@ -216,12 +234,12 @@ text-align: center;
   padding: 20px;
   margin: 20px 0px;
   text-align: center;
-  border-radius: 1px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   font-size: 25px;
   color: white;
   font-weight: bolder;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  text-shadow: 0 0 30px rgba(0,0,0,0.7);
   flex: 0 0 30%;
 }
 @media(max-width: 992px) {
