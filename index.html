@@ -83,34 +83,58 @@
 
          <div class="skills">
            <h3>Compétences</h3>
-           <div class="container">
-  <div class="row">
-    <div class="col-12 col-sm-6 col-lg-4">
-           <div class="card-white">
-      <img src="images/fast.png" alt="picture description" height="140">
-      <h2>Fast</h2>
-      <p>We deliver fast, <strong>really fast</strong></p>
-      </div>
-      </div>
-    <div class="col-12 col-sm-6 col-lg-4">
-      <div class="card-white">
-      <img src="images/trustable.png" alt="picture description" height="140">
-      <h2>Simple</h2>
-      <p>You can trust us, <strong>like really</strong></p>
-      </div>
-      </div>
-    <div class="col-12 col-sm-12 col-lg-4">
-        <div class="card-white">
-      <img src="images/affordable.png" alt="picture description" height="140">
-      <h2>Awesome</h2>
-      <p>We adapt our price to <strong>your situation</strong></p>
-      </div>
+            <div class="dashboard-card stat">
+          <div class="card-white">
+            <img src="images/logo-audencia.png" alt="" height="80">
+            <h3>WordPress</h3>
+          </div>
+        </div>
+        <div class="dashboard-card stat">
+          <div class="card-white">
+            <img src="images/logo-sorbonne.png" alt="" height="80">
+            <h3>Travail en équipe</h3>
+          </div>
+        </div>
+        <div class="dashboard-card stat">
+          <div class="card-white">
+            <img src="images/logo-hb.png" alt="" height="80">
+            <h3>Réseau sociaux</h3>
+          </div>
     </div>
-    </div>
-    </div>
-    </div>
+     </div>
         <div class="loisirs">
         <h3>Centres d'intérêt</h3>
+
+
+<div class="main-container">
+      <div class="results-container">
+        <div class="card" style="background-image: url(images/clapperboard2.jpg)">Cinéma</div>
+        <div class="card" style="background-image: url(images/histoire2.jpg)">Histoire</div>
+        <div class="card" style="background-image: url(images/voyage.jpg)">Voyager</div>
+        <div class="card" style="background-image: url(images/sport.jpg)">Sport</div>
+
+      </div>
+
+      <div id="map"></div>
+    </div>
+
+
+    <!-- Gmaps js: building the map -->
+    <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 52.5206, lng: 13.4098},
+          scrollwheel: false,
+          zoom: 8
+        });
+      }
+    </script>
+    <!-- Gmaps JavaScript -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzER7O10ZOUp7FloJzMe2r8X1GIQhgt7Q&callback=initMap"></script>
+
+
+
         </div>
 
       </div>
