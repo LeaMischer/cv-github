@@ -112,6 +112,10 @@ font-family: 'Libre Franklin', sans-serif;
   margin: 10px;
   text-align: center;
 }
+.loisirs h4 {
+  text-align: right;
+  padding-right: 150px;
+}
 .loisirs-title {
   grid-row: 5 / span 1;
   grid-column: 1 / span 4;
@@ -194,7 +198,7 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 
-#map {
+#map iframe {
   flex: 0 0 400px;
   height: 100vh;
   position: sticky !important;
