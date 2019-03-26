@@ -20,7 +20,7 @@
   grid-column: 2 / span 3;
 }
 .dashboard .description h3 {
-font-family: 'Libre Franklin', sans-serif;
+font-family: 'Lato', sans-serif;
 }
 .experiences {
   grid-row: 3 / span 1;
@@ -33,11 +33,14 @@ font-family: 'Libre Franklin', sans-serif;
 .experiences h3 {
   text-align: center;
 }
+.experiences h4 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
 .experiences-title {
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 2px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .experiences-title:hover {
   background: #9D9D9D;
@@ -80,7 +83,7 @@ font-family: 'Libre Franklin', sans-serif;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 2px;
   text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .skills-title:hover {
   background: #9D9D9D;
@@ -114,7 +117,9 @@ font-family: 'Libre Franklin', sans-serif;
 }
 .loisirs h4 {
   text-align: right;
-  padding-right: 150px;
+  padding-right: 130px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 .loisirs-title {
   grid-row: 5 / span 1;
@@ -123,7 +128,7 @@ font-family: 'Libre Franklin', sans-serif;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 2px;
   text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .loisirs-title:hover {
   background: #9D9D9D;
@@ -143,6 +148,7 @@ font-family: 'Libre Franklin', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: 'Nunito', sans-serif;
 }
 @media (max-width: 992px) {
   .dashboard {
@@ -153,18 +159,12 @@ font-family: 'Libre Franklin', sans-serif;
 /* Fonts and colors */
 .dashboard h2 {
   font-size: 25px;
-  font-family: 'Libre Franklin', sans-serif;
-}
-.dashboard h3 {
-font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .dashboard h3 {
   color: #8AB9E3;
   font-size: 25px;
   margin-bottom: 15px;
-}
-.dashboard h4 {
-  font-family: 'Hind Siliguri', sans-serif;
 }
 .dashboard p {
   color: rgba(0,0,0,0.5);
