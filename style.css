@@ -149,6 +149,7 @@ font-family: 'Lato', sans-serif;
   align-items: center;
   justify-content: space-around;
   font-family: 'Nunito', sans-serif;
+  font-size: 10px;
 }
 @media (max-width: 992px) {
   .dashboard {
