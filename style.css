@@ -204,16 +204,6 @@
     display: block;
   }
 }
-#map iframe {
-  flex: 0 0 400px;
-  height: 100vh;
-  position: sticky !important;
-  top: 0 !important;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
 .main-container {
   display: flex;
   font-family: 'Hind Siliguri', sans-serif;
@@ -226,6 +216,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   text-shadow: 0 0 50px rgba(0,0,0,0.9);
+}
+#map iframe {
+  flex: 0 0 400px;
+  height: 100vh;
+  position: sticky !important;
+  top: 0 !important;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 .card {
   background-size: cover;
